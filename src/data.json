@@ -1,0 +1,110 @@
+{
+    "fullName": "Akinwole Adeola Abraham",
+    "email": "adeola.akinwole.me@gmail.com",
+    "phone":"+2348130532701",
+    "title": "Product Engineer and Developer",
+    "location": "Lagos, Nigeria",
+    "socials":[
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/akinwole-abraham-335812194/"
+        },
+        {
+            "name": "github",
+            "url": "https://www.github.com/ax3cubed"
+        }
+    ],
+    "about": "I am a product engineer and developer with a passion for building products that solve real-world problems. I have a background in software engineering and have spearheaded several projects in the industry. I am currently working as a product engineer at a company called <a href='https://www.linkedin.com/company/precise-financial-systems'>Precise Financial Systems</a>.",
+    "yearsOfExperience": "8",
+    "satisfiedClients": "100",
+    "services":[
+        {
+            "name": "Full Stack Developer",
+            "description": "I build web applications using the latest technologies and frameworks.",
+            "numberOfProjects": "30"
+        },
+        {
+            "name": "Product Engineer",
+            "description": "I build mobile applications using the latest technologies and frameworks.",
+            "numberOfProjects": "10"
+        },
+        {
+            "name": "Backend Developer",
+            "description": "I build databases using the latest technologies and frameworks.",
+            "numberOfProjects": "40"
+        },
+        {
+            "name": "Mobile Developer",
+            "description": "I build devops solutions using the latest technologies and frameworks.",
+            "numberOfProjects": "10"
+        }
+    ],
+    "portfolio":[
+        {
+            "projectName": "Security Service for Minors",
+            "projectDescription":"this project is a technology innovation designed to solve security issues in preschools, curbing child napping during pickups from school",
+            "images":[
+
+            ],
+            "projecLink":"https://github.com/ax3cubed/Child-Security"
+        },
+        {
+            "projectName": "IGRHUB",
+            "projectDescription":"the IGRHUB is an extensive multitenant platform for states, local governments, and other institutions to manage citizens tax payments and other tax-related information. it also comprises a payment gateway for the institution to process payments to the government.",
+            "images":[
+
+            ],
+            "projecLink":"https://github.com/ax3cubed/Child-Security"
+        },
+        {
+            "projectName": "M36 (Backend)",
+            "projectDescription":"a fintech platform for the management of financial accounts and transactions",
+            "images":[
+
+            ],
+            "projecLink":"https://github.com/ax3cubed/Child-Security"
+        },
+        {
+            "projectName": "Cooperative Management System",
+            "projectDescription":"a cooperative platform for cooperative societies to manage their members and transactions",
+            "images":[
+
+            ],
+            "projecLink":"https://github.com/ax3cubed/Child-Security"
+        },
+        {
+            "projectName": "Breast Cancer Multi-Model Classification",
+            "projectDescription":"a web platform for the classification of breast cancer using machine learning algorithms",
+            "images":[
+
+            ],
+            "projecLink":""
+        },
+        {
+            "projectName": "Anthropometric Measurements detection",
+            "projectDescription":"An android app detecting actual anthropometric measurements of a person",
+            "images":[
+
+            ],
+            "projecLink":""
+        },
+        {
+            "projectName": "Wayapay Payment Plugin",
+            "projectDescription":"a payment plugin for the Wayapay payment gateway for mobile",
+            "images":[
+
+            ],
+            "projecLink":""
+        },
+        {
+            "projectName": "PAYGO POS",
+            "projectDescription":"a POS application for Paygo",
+            "images":[
+
+            ],
+            "projecLink":""
+        }
+    ]
+
+
+}
