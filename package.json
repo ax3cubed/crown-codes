@@ -15,6 +15,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "baseui": "^11.2.1",
+    "framer-motion": "^6.5.1",
     "glamor": "^2.20.40",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",

@@ -13,7 +13,7 @@ const settings = {
     title: "Hello 👋.",
     title2: "Harikrushn",
     nickname: "harry / picleric",
-    full_name: "Harikrushn Kanani",
+    full_name: "Akinwole Adeola",
     subTitle:
       "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
     resumeLink:

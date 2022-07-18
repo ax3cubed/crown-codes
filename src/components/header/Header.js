@@ -10,7 +10,6 @@ import logo from "../../assets/images/logo.png";
 import logo_black from "../../assets/images/logo_black.png";
 
 function Header({ theme, setTheme }) {
-  console.log(greeting);
   const styles = style({
     cursor: "pointer",
     height: "45px",
@@ -22,7 +21,7 @@ function Header({ theme, setTheme }) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: theme.name === "light" ? "#7CD1F7" : "#292C3F",
+    backgroundColor: theme.name === "light" ? "##ffcc52" : "#292C3F",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
@@ -63,9 +62,16 @@ function Header({ theme, setTheme }) {
 
   return (
     <Fade top duration={1000} distance="20px">
-      <div>
+    
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
+          
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
+          <ul className="menu">
+            <li>
+            <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
               {theme.name === "light" ? (
@@ -73,30 +79,27 @@ function Header({ theme, setTheme }) {
                   src={logo}
                   alt="Logo"
                   style={{
-                    width: 300,
-                    height: 200,
+                    width: 250,
+                    height: 150,
                   }}
                 />
               ) : (
                 <img
                   src={logo_black}
                   style={{
-                    width: 300,
-                    height: 200,
+                    width: 250,
+                    height: 150,
                   }}
                 />
               )}
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <ul className="menu">
+            </li>
             <li>
               <NavLink
-                className="homei"
+                 
+                className={({ isActive }) => (isActive ? 'active' : 'homei')}
                 to="/home"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
@@ -107,7 +110,7 @@ function Header({ theme, setTheme }) {
             </li>
             <li>
               <NavLink
-                className="ec"
+                className={({ isActive }) => (isActive ? 'active' : 'ec')}
                 to="/education"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
@@ -118,7 +121,7 @@ function Header({ theme, setTheme }) {
             </li>
             <li>
               <NavLink
-                className="xp"
+                className={({ isActive }) => (isActive ? 'active' : 'xp')}
                 to="/experience"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
@@ -129,7 +132,8 @@ function Header({ theme, setTheme }) {
             </li>
             <li>
               <NavLink
-                className="projects"
+                 
+                className={({ isActive }) => (isActive ? 'active' : 'projects')}
                 to="/projects"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
@@ -138,15 +142,18 @@ function Header({ theme, setTheme }) {
                 Contact
               </NavLink>
             </li>
-             <li>
+            
+            
+          </ul>
+          <div>
+          
              <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
-             </li>
             
-          </ul>
+          </div>
         </header>
-      </div>
+     
     </Fade>
   );
 }
